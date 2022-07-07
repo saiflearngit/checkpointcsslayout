@@ -1,0 +1,96 @@
+*{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size:large;
+}
+
+
+#first_logo {
+    width: 268px;
+    height: 33px;
+}
+
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.section_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 200px;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 10% ;
+}
+
+.section_2 > div {
+    
+    border: white 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 17%;
+    
+}
+
+.section_2  h2  {
+    color: white;
+    font-size:x-large ;
+}
+
+.section_2 p {
+    color: white;
+}
+
+.section_2 select {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: white solid 1px;
+    font-size: large;
+}
+
+.section_3 {
+    display: flex;
+    padding: 10%;
+    
+}
+
+.section_3 img {
+    width: 10%;
+}
+
+.s3_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
